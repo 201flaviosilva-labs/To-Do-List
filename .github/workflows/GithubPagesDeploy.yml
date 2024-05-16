@@ -20,8 +20,8 @@ jobs:
       - name: Install
         run: npm i
 
-      - name: Build
-        run: npm run build
+      - name: Build App and Storybook
+        run: npm run build:all
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
