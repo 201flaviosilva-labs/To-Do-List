@@ -1,1 +1,0 @@
-import{R as e,b as n,d as c,u as a}from"./index-9e094019.js";import"./index-928ed2fb.js";import"./hoist-non-react-statics.cjs-ded9213f.js";function r(t=e){const o=t===e?n:c(t);return function(){const{store:s}=o();return s}}const p=r();function i(t=e){const o=t===e?p:r(t);return function(){return o().dispatch}}const x=i(),f=()=>x(),h=a;export{h as a,f as u};
